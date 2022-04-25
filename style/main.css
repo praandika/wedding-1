@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.section-1 {
+    /* The image used */
+    background-image: url("../img/samantha-gades-7JUDLPlA114-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    position: relative;
+}
+
+.text-section{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    min-height: 800px;
+}
+
+.text h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.text .line{
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.text h2{
+    padding-top: 50px;
+    font-size: 80px;
+    color: #FFFFFF;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+.text h3{
+    padding-top: 50px;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+.text h4{
+    margin-top: 50px;
+    letter-spacing: 8px;
+    font-family: 'Akshar', sans-serif;
+}
+
+.text p{
+    margin-top: 80px;
+    letter-spacing: 8px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 300;
+}
+
+.text .guest{
+    outline: none;
+    width: 250px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 5px;
+    font-family: 'Akshar', sans-serif;
+    color: #FFFFFF;
+    border-radius: 5px 15px 5px 15px;
+}
+
+.text img{
+    margin-top: 10px;
+}
+
+.section-2 {
+    /* The image used */
+    background-image: url("../img/pexels-ave-calvar-martinez-3934623.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sentence{
+    padding: 0px 12px 0px 12px;
+    font-family: 'Akshar', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sentence span{
+    text-transform: lowercase;
+}
+
+.container-table{
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+}
+
+table.date-place{
+    margin: auto;
+    font-family: 'Akshar', sans-serif;
+    font-weight: bold;
+}
+
+table.date-place td{
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+table.date-place td.waktu{
+    padding: 0 30px 0 30px;
+}
+
+table.date-place .bulan{
+    position: relative;
+    top: 20px;
+}
+
+table.date-place .tahun{
+    position: relative;
+    bottom: 20px;
+}
+
+table.date-place .tanggal{
+    font-size: 80px;
+}
+
+.section-3{
+    /* The image used */
+    background-image: url("../img/klim-musalimov-rDMacl1FDjw-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container-photo{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-3 img{
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+}
