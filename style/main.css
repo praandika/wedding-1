@@ -37,7 +37,6 @@ html{
     margin: auto;
     text-align: center;
     color: #FFFFFF;
-    min-height: 800px;
 }
 
 .text h1{
@@ -100,7 +99,7 @@ html{
     background-image: url("../img/pexels-ave-calvar-martinez-3934623.jpg");
 
     /* Set a specific height */
-    min-height: 800px; 
+    
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -155,30 +154,87 @@ table.date-place .tanggal{
     font-size: 80px;
 }
 
-.section-3{
-    /* The image used */
-    background-image: url("../img/klim-musalimov-rDMacl1FDjw-unsplash.jpg");
-
-    /* Set a specific height */
-    min-height: 800px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.container-photo{
-    padding-top: 50px;
+.container-photo,
+.mepandes,
+.quote{
     margin: auto;
     text-align: center;
     color: #FFFFFF;
+    padding: 20px;
 }
 
-.section-3 img{
+.container-photo img{
     width: 250px;
     padding: 20px;
     border-radius: 50%;
+}
+
+.container-photo h3{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 35px;
+}
+
+.container-photo h4{
+    font-family: 'Akshar', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-photo h4 span{
+    font-weight: 100;
+}
+
+.container-photo p{
+    font-family: 'Akshar', sans-serif;
+    font-size: 12px;
+}
+
+.container-photo .man,
+.container-photo .woman{
+    padding-bottom: 30px;
+}
+
+.mepandes{
+    padding: 20px;
+}
+
+.mepandes h3{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 35px;
+}
+
+.separate{
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 2px;
+    border-radius: 50px;
+    margin: 50px 0 0 0;
+}
+
+.quote span{
+    font-size: 50px;
+    font-family: 'BIZ UDMincho', serif;
+    display: inline-block;
+}
+
+.quote span.startquote{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.quote p{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Akshar', sans-serif;
+    margin: 0;
+}
+
+.quote p.source-quote{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Akshar', sans-serif;
 }
