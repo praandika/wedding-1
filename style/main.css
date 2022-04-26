@@ -9,6 +9,29 @@ html{
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.mg-b-25{
+    margin-top: 25px;
+}
+
+.btn-1{
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    font-family: 'Akshar', sans-serif;
+    border-radius: 5px 15px 5px 15px;
+    font-size: 20px;
+}
+
+a.btn-1{
+    text-decoration: none;
+    color: #000000;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
 .section-1 {
     /* The image used */
     background-image: url("../img/samantha-gades-7JUDLPlA114-unsplash.jpg");
@@ -21,15 +44,16 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(30%);
     position: relative;
 }
 
 .text-section{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
+    background-color: #000000;
+    opacity: 0.8;
+    min-height: 800px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF; 
 }
 
 .text{
@@ -37,6 +61,7 @@ html{
     margin: auto;
     text-align: center;
     color: #FFFFFF;
+    filter: brightness(100%);
 }
 
 .text h1{
@@ -195,7 +220,7 @@ table.date-place .tanggal{
 }
 
 .mepandes{
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
 }
 
 .mepandes h3{
@@ -204,12 +229,17 @@ table.date-place .tanggal{
 }
 
 .separate{
-    display: inline-block;
     background-color: #FFFFFF;
     width: 300px;
     height: 2px;
     border-radius: 50px;
-    margin: 50px 0 0 0;
+}
+
+.separate-sm{
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 1px;
+    border-radius: 50px;
 }
 
 .quote span{
@@ -237,4 +267,48 @@ table.date-place .tanggal{
     font-size: 12px;
     font-weight: bold;
     font-family: 'Akshar', sans-serif;
+}
+
+.section-3 {
+    /* The image used */
+    background-image: url("../img/nikita-shirokov-qGgjalogCdE-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.countdown{
+    padding-top: 30px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 80px;
+}
+
+.section-4 {
+    /* The image used */
+    background-image: url("../img/pexels-ave-calvar-martinez-3934623.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.map{
+    padding: 15px;
+}
+
+.map iframe{
+    border-radius: 5px 15px 5px 15px;
 }
